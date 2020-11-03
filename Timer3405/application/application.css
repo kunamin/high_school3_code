@@ -1,0 +1,25 @@
+.root {
+	-fx-alignment:center;
+	-fx-vgap:2mm;
+	-fx-hgap:2mm;
+	-fx-background-image:url(Image0.jpg);
+}
+.label{
+	-fx-text-fill:rgb(0,0,0);
+	-fx-font-size:13pt;
+	-fx-background-color: rgba(255,255,255,0.6);
+}
+#rule {
+	-fx-font-size:15pt;
+	-fx-font-weight: bold;
+}
+.button{
+	-fx-background-color:linear-gradient( from 0.0% 0.0% to 100.0% 100.0%, rgba(255,255,255,0.6) 0.0, rgba(255,204,230,0.6) 100.0);
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 10, 0 , 2 , 2 );
+}
+.button:hover{
+	-fx-background-color:radial-gradient( focus-angle 0.0deg, focus-distance 0.0%, center 50.0% 50.0%, radius 100.0%, rgba(255,255,255,0.6) 0.0, rgba(0,0,0,0.6) 100.0 )
+}
+.button:pressed {
+    -fx-background-color: linear-gradient(yellow, #61a2b1); 
+}
